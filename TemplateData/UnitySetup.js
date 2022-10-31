@@ -26,11 +26,11 @@ function unityShowBanner(msg, type) {
 }
 
 var buildUrl = "Build";
-var loaderUrl = buildUrl + "/test20.loader.js";
+var loaderUrl = buildUrl + "/TEST21.loader.js";
 var config = {
-    dataUrl: buildUrl + "/test20.data",
-    frameworkUrl: buildUrl + "/test20.framework.js",
-    codeUrl: buildUrl + "/test20.wasm",
+    dataUrl: buildUrl + "/TEST21.data",
+    frameworkUrl: buildUrl + "/TEST21.framework.js",
+    codeUrl: buildUrl + "/TEST21.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "imona",
     productName: "3dgame",
