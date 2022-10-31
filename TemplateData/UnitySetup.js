@@ -26,11 +26,11 @@ function unityShowBanner(msg, type) {
 }
 
 var buildUrl = "Build";
-var loaderUrl = buildUrl + "/TEST21.loader.js";
+var loaderUrl = buildUrl + "/TEST22.loader.js";
 var config = {
-    dataUrl: buildUrl + "/TEST21.data",
-    frameworkUrl: buildUrl + "/TEST21.framework.js",
-    codeUrl: buildUrl + "/TEST21.wasm",
+    dataUrl: buildUrl + "/TEST22.data",
+    frameworkUrl: buildUrl + "/TEST22.framework.js",
+    codeUrl: buildUrl + "/TEST22.wasm",
     streamingAssetsUrl: "StreamingAssets",
     companyName: "imona",
     productName: "3dgame",
@@ -52,8 +52,8 @@ if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
     config.devicePixelRatio = 1;
     unityShowBanner('WebGL builds are not supported on mobile devices.');
 } else {
-    canvas.style.width = "1920px";
-    canvas.style.height = "1080px";
+    canvas.style.width = "900px";
+    canvas.style.height = "600px";
 }
 
 
